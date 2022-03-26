@@ -1,0 +1,70 @@
+
+title {
+  display: none;
+  font-style: oblique;
+  font-size:  60;
+
+}
+
+link {
+  display: none;
+}
+
+body {
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.right {
+  text-align:  right;
+}
+
+.topbar {
+  color: 33CAFF;
+}
+
+/* Add a black background color to the top navigation */
+.top_navigation {
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+.dishes-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px 70px 5px 20px;
+  background: transparent;
+  height: 100%;
+  border-radius:15px;
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.dishes-container:hover .overlay {
+  opacity: 1;
+}
+
+.dishes-scroll {
+  display:inline-block;
+} 
+
+.dishes-scroll img {
+  margin-left: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+#dininghall {
+  text-align: center;
+  font-size: 15px;
+  color: #003373;
+}
