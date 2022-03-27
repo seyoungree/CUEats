@@ -1,2 +1,2 @@
 # devfest2022
-The project aims to help students narrow down dining hall choices using a rating system.
+We were inspired by the hit-or-miss meals at the Columbia dining halls and the countless, unfortunate wastes of a dining hall swipe on a subpar meal. With the rise of the unpredictability of the quality of the CU dining hall meals, it is even more necessary for students to know the quality of the meal before deciding to use a precious swipe. We want to make sure that students are getting a healthy, happy meal and using their dining hall swipes more wisely through our app. 
