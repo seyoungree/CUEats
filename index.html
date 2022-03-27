@@ -5,18 +5,29 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 </style>
-
+<head>
+<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+</style>
+</head>
 <body>
 
 <!-- Navigation Bar -->
 
 <div class = "top_navigation">
-	    <a href="#">Name</a>
-    	<a href="#aboutDiv">About Us</a>
-		<a href="#referenceDiv">Reference</a>    
+	<ul>
+	    <li><a href="#name" class ="active" style="background-color: darkblue; font-size: 20px; font-style: Georgia;">CUEat</a></li>
+    	<li><a href="#aboutDiv">About Us</a></li>
+		<li><a href="#referenceDiv">Reference</a></li>
+	</ul>  
  </div>
 <!-- Main Content -->
 
@@ -25,6 +36,13 @@
 		<div class ="dishes-scroll">
 			<div id = "dininghall" style="background-color:lightblue;">
 				<h2>John Jay Dining Hall</h2> 
+			</div>
+			<div class = "rating">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+				<span class="fa fa-star"></span>
 			</div>
 			<!-- Image URLs -->
 			<img href ="#j1" src="https://www.closetcooking.com/wp-content/uploads/2012/01/Kung-Pao-Chicken-1200-0879.jpg" />
@@ -40,22 +58,34 @@
 			<div id = "dininghall" style="background-color:lightblue;">
 				<h2>Ferris Booths Commons</h2> 
 			</div>
-			<!-- Image URLs -->
-			<img href ="#j1" src="https://www.closetcooking.com/wp-content/uploads/2012/01/Kung-Pao-Chicken-1200-0879.jpg" />
-			<img href ="#j2" src="https://www.closetcooking.com/wp-content/uploads/2012/01/Kung-Pao-Chicken-1200-0879.jpg" />
-			<img href ="#j3" src="https://www.closetcooking.com/wp-content/uploads/2012/01/Kung-Pao-Chicken-1200-0879.jpg" />
-			<img href ="#j4" src="https://www.closetcooking.com/wp-content/uploads/2012/01/Kung-Pao-Chicken-1200-0879.jpg" />
-			<img href ="#j5" src="https://www.closetcooking.com/wp-content/uploads/2012/01/Kung-Pao-Chicken-1200-0879.jpg" />
-			<div class = "overlay">
-				<div class = "star"> Hellow World</div>
+			<div class = "rating">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
 			</div>
+			<!-- Image URLs -->
+			<img class ="hover-image" href ="#j1" src="https://www.closetcooking.com/wp-content/uploads/2012/01/Kung-Pao-Chicken-1200-0879.jpg" />
+			<img class ="hover-image" href ="#j2" src="https://www.closetcooking.com/wp-content/uploads/2012/01/Kung-Pao-Chicken-1200-0879.jpg" />
+			<img class ="hover-image" href ="#j3" src="https://www.closetcooking.com/wp-content/uploads/2012/01/Kung-Pao-Chicken-1200-0879.jpg" />
+			<img class ="hover-image" href ="#j4" src="https://www.closetcooking.com/wp-content/uploads/2012/01/Kung-Pao-Chicken-1200-0879.jpg" />
+			<img class ="hover-image" href ="#j5" src="https://www.closetcooking.com/wp-content/uploads/2012/01/Kung-Pao-Chicken-1200-0879.jpg" />
 		</div>
+		
 	</div>
 
 	<div class="dishes-container">		
 		<div class ="dishes-scroll">
 			<div id = "dininghall" style="background-color:lightblue;">
 				<h2>Faculty House</h2> 
+			</div>
+			<div class = "rating">
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
 			</div>
 			<!-- Image URLs -->
 			<img href ="#j1" src="https://www.closetcooking.com/wp-content/uploads/2012/01/Kung-Pao-Chicken-1200-0879.jpg" />
